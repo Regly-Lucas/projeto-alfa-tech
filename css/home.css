@@ -1,0 +1,222 @@
+header{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+  }
+.logo{
+    width: 380px;
+    position: relative;
+    margin-top: -20px;
+    }
+.logo img{
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo h1{
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+.logo p{
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    color:#2f86d6;
+    font-weight: bold;
+}
+header nav a{
+text-decoration: none;
+color:#000000;
+margin-left: 10px;
+font-weight: 500;
+}
+.banner{
+    padding: 20px 0;
+    background-color:#2f86d6;
+    color:#ffffff;
+}
+.banner-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-container aside{
+    width: 470px;
+    }
+    .banner-container aside p{
+        margin: 20px 0;
+        font-size: 17px;
+    }
+    .banner-container aside h2{
+        font-size: 30px;
+    }
+.banner-container img{
+    width: 50%;
+}
+.primeiro-anuncio{
+    background-color: #233032;
+    }
+.pa-banner{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#ffffff
+    }
+.pa-banner aside{
+    max-width: 600px;
+    padding: 40px 0;
+}
+.pa-banner aside h2,
+.sa-banner aside h2{
+    margin-bottom: 5px;
+}
+.tdp-botao{
+    max-width: 300px;
+    background-color: #2f86d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0 15px;
+    height: 60px;
+}
+.tdp-botao a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+.secao-informacoes{
+    padding: 100px 0;
+}
+.info-container-um{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.info-container-um h2{
+    margin-bottom: 120px;
+    font-size: 30px;
+}
+.info-container-um span{
+    color: #2f86d6;
+}
+.info-container-dois{
+    max-width: 1024px;
+    display: flex;
+    margin: 0 auto;
+}
+.info-container-dois div{
+    width: 33.333%;
+    text-align: center;
+}
+.info-container-dois div img{
+    width: 100px;
+}
+.secao-planos{
+    padding: 100px 0;
+}
+.planos-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+.planos-container h2{
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+.planos-container h2 span{
+    color: #2f86d6;
+}
+table{
+    text-align: center;
+    border: 1px solid black;
+    box-shadow:0 0 20px 10px rgb(47,134,241,1);
+    padding: 50px 0;
+}
+table img{
+    width:20%;
+}
+table span{
+    color:#a89f9f;
+}
+thead{
+    border: 1px solid black;
+}
+.cinza{
+    background-color:#f1f3f7;
+}
+tbody{
+    font-size: 15px;
+}
+tbody td{
+    padding: 10px 0;
+    border-left: 1px solid #ccc;
+}
+thead th{
+    border-left: 1px solid #ccc;
+}
+.tdp-botao-dois{
+    max-width: 300px;
+    background-color: #233032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0 15px;
+    height: 60px;
+}
+.tdp-botao-dois a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+.segundo-anuncio{
+    background-color: #2f86d6;
+}
+.sa-banner{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#ffffff
+    }
+    .sa-banner aside{
+        max-width: 600px;
+        padding: 40px 0;
+    }
+    .rodape{
+        text-align: center;
+        padding: 100px 0;
+    }
+    .rodape .logo{
+        max-width:320px;
+        margin: 0 auto;
+    }
+    .contatos{
+        margin-top:130px;
+        margin-bottom: 100px;
+        }
+        .contatos p{
+            line-height: 40px;
+            font-weight: 700;
+        }
+        .desenvolvido-por{
+            font-weight: 700;
+            background-color: #f1f3f7;
+            padding: 40px 0;
+            position: relative;
+            bottom: -80px;
+        }
+        .desenvolvido-por span{
+            color: #2f86d6;
+        }
